@@ -16,3 +16,10 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+/* concurrentie css */
+
+ul.conc span{
+    font-weight: bold;
+    font-size: 20px;
+}
