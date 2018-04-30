@@ -19,10 +19,12 @@ img {
 
 /* concurrentie css */
 
+ul.conc{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 ul.conc span{
     font-weight: bold;
     font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: green;
 }
