@@ -19,11 +19,6 @@ img {
 
 /* concurrentie css */
 
-ul.conc{
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
 ul.conc span{
     font-weight: bold;
     font-size: 20px;
