@@ -23,3 +23,18 @@ ul.conc span{
     font-weight: bold;
     font-size: 20px;
 }
+
+/* styleguide */
+
+@font-face{
+    src: url('../fonts/yugothib.ttf');
+    font-family: 'yugothib';
+}
+
+section{
+    background-color: lightblue;
+    width: 90%;
+    height: 300px;
+    margin: 50px auto;
+    font-family: 'yugothib';
+}
