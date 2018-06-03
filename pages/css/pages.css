@@ -123,28 +123,30 @@ section.field{
 }
 
 input::-webkit-input-placeholder {
-    font-size: 14px;
-}
-
-input.left{
-    width: calc(30% - 5px);
-    height: auto;
-    background-color: white;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
+    font-size: 16px;
     color: #DBBA6B;
 }
 
-input.right{
-    width: calc(30% - 5px);
+input.left{
+    width: calc(30% - 15px);
     height: auto;
     background-color: white;
     border: none;
     outline: none;
     box-sizing: border-box;
     padding: 10px 0px 10px 15px;
-    color: #DBBA6B;
+    margin-left: calc(20% + 2px);
+    margin-right: 21px;
+}
+
+input.right{
+    width: calc(30% - 15px);
+    height: auto;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px 0px 10px 15px;
 }
 
 button{
@@ -159,7 +161,6 @@ button{
     font-size: 16px;
     box-sizing: border-box;
     padding: 10px;
-    left: 0;
-    right: 0;
     margin-top: 15px;
+    margin-left: calc(20% + 2px);
 }
